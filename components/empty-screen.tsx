@@ -1,3 +1,5 @@
+'use client'
+
 import { UseChatHelpers } from 'ai/react'
 
 import { Button } from '@/components/ui/button'
@@ -11,6 +13,9 @@ export function EmptyScreen() {
         <h1 className="text-lg font-semibold">
           Welcome to Next.js AI Chatbot!
         </h1>
+        <p>
+          <p>Powered by Sentry</p>
+        </p>
         <p className="leading-normal text-muted-foreground">
           This is an open source AI chatbot app template built with{' '}
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
